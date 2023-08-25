@@ -5,6 +5,7 @@ Hello 👋 I am Saumick Pradhan, a senior studying BS Honors in Computer Science
 
 ## Contact information
 > Email ID: Pradhask@mail.uc.edu
+> 
 > Phone Number: +1 (513) 331-8661
 
 ## Co-op Work Experience
