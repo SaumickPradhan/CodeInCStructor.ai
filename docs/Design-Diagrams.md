@@ -14,7 +14,7 @@ In this diagram, we go one layer deep. We understand that the Professor publishe
 
 **Design D2:**
 
-Our final design shows the complete working of the subsystems of the platform. The professor publishes the assignment and every student accesses it through their university login ID. The student interacts with the assignment and then submits a response. The response is then passed through an Open API generative API. The API is pre trained on a model which is imported. The model gives the output to the student. The student reviews the comments and implements the code recommendations.
+Our final design shows the complete working of the subsystems of the platform. The professor publishes the assignment and every student accesses it through their university login ID. The student interacts with the assignment and then submits a response. The response is then passed through an Open API generative API. The API is pre trained on a model which is imported. The model gives the output to the student. The student reviews the comments and implements the code recommendations. The subsystems of the platform are in square boxes.
 
 <img width="611" alt="image" src="https://github.com/SaumickPradhan/UG-senior-design/assets/85262444/13d847c1-1113-48c4-9b0b-b7a0c8052c59">
 
