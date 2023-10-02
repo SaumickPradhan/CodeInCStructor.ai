@@ -31,6 +31,22 @@
 - Continue refining the platform's user interfaces and functionalities.
 - Conduct initial testing and debugging of the platform.
 
+5) **February 2024:**
+- Begin the deployment process to be used by a small group of students for initial testing and feedback.
+- Monitor and address any issues that arise during the initial deployment phase.
+
+6) **March 2024:**
+- Continue deployment and gradually scale up usage to a larger group of students.
+- Collect feedback and usage results from students.
+
+7) **April 2024:**
+- Analyze the data from the results to produce observations of student use cases.
+- Begin drafting the paper based on our findings.
+
+8) **May 2024:**
+- Refine and finalize the paper.
+- Prepare for the publication process.
+
 ## Effort Matrix
 
 | Sr. No. | Task                            | Saumick | Roshni | Comments |
