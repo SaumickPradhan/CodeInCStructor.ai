@@ -13,7 +13,23 @@
 
 ## Timeline
 
+1) **October 2023:**
+- Research a platform to host the software and make it accessible to users.
+- Research OpenAI API for code correction and recommendation.
 
+2) **November 2023:**
+- Obtain student assignments from Advisors for the platform.
+- Develop the interface for students with a login.
+- Develop the interface for professors with a login.
+
+3) **December 2023:**
+- Create a repository for student's assignment submissions.
+- Import the pre-trained OpenAI API.
+- Develop output customization while presenting to the student.
+
+4) **January 2024:**
+- Continue refining the platform's user interfaces and functionalities.
+- Conduct initial testing and debugging of the platform.
 
 ## Effort Matrix
 
