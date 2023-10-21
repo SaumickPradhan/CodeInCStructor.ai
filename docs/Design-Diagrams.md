@@ -18,3 +18,11 @@ Our final design shows the complete working of the subsystems of the platform. T
 
 <img width="611" alt="image" src="https://github.com/SaumickPradhan/UG-senior-design/assets/85262444/13d847c1-1113-48c4-9b0b-b7a0c8052c59">
 
+
+**Design D3**
+
+We decided to add additional components to the project. The Teacher will provide excerices and study materials for the students using the platform. The AI platform will produce solutions to the excerises. The studen will access these and  will manually get solutions to the excersise and get attempt. The platform will check the attempt and provide feeback to the student. 
+
+![image](https://github.com/SaumickPradhan/UG-senior-design/assets/85262444/d490c4fd-0c2f-41ff-9c7d-ca6721ebed72)
+
+
