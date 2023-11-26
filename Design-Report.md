@@ -7,9 +7,10 @@
 3. [User Stories and Design Diagrams](#user-stories-and-design-diagrams)
     - [User Stories](#user-stories)
     - [Design Diagrams](#design-diagrams)
-      - [Level 0](#level-0)
-      - [Level 1](#level-1)
-      - [Level 2](#level-2)
+      - [Design D0](#design-D0)
+      - [Design D1](#design-D1)
+      - [Design D2](#design-D2)
+      - [Design D3](#design-D3)
       - [Description of the Diagrams](#description-of-the-diagrams)
 4. [Project Tasks and Timeline](#project-tasks-and-timeline)
     - [Task List](#task-list)
@@ -47,29 +48,49 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id 
 ## User Stories and Design Diagrams
 
 ### User Stories
+<img width="42" alt="image" src="https://github.com/SaumickPradhan/CodeInCStructor.ai/assets/85262444/d0784726-3aae-486e-9e85-1d77f0887a41">
 
-*Assignment #4*
+**User Profile 1:** I am a First year College student, starting my Computer Science (or similar) degree. I have little to no prior experience in programming and I have just started to learn the basics.​
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id mauris tincidunt, ac consequat arcu rhoncus. Nulla facilisi. Proin lacinia tortor nec magna viverra, ac lacinia mauris dictum.
+**User Story 1:** Given my background, I face a lot of syntax and logical errors while coding during my assignments. I sometimes do not know the correct or most effective way to approach the solution. Hence, I want to have an interactive platform which can help me learn coding in an efficient manner and help answer my questions during the assignment, so that I can have strong fundamentals.​
+
+
+<img width="67" alt="image" src="https://github.com/SaumickPradhan/CodeInCStructor.ai/assets/85262444/75e25788-b13c-4965-8030-7fd692d36595">
+
+**User Profile 2:** I am a Computer Science professor teaching an Intro computer Science class with 50 + students.​
+
+**User Story 2:** It is difficult to provide personalized feedback to every student based on their attempts to the exercises to enable active learning by trying. It is also challenging to come up with unique exercises for each class/ student as most questions have solutions online. ​
+
+
 
 ### Design Diagrams
 
-#### Level 0
 
-*Diagram Image: [Level 0 Diagram](/diagrams/level0.png)*
+# Design D0:
 
-#### Level 1
+In this highest-level view, we have the Input from the user. It passes through the “Coding Platform” which is the machine. And then the output is the efficient Code recommendation generated from the “Coding Platform”. The “Machine” is depicted in a cloud.
 
-*Diagram Image: [Level 1 Diagram](/diagrams/level1.png)*
+<img width="709" alt="image" src="https://github.com/SaumickPradhan/UG-senior-design/assets/85262444/c2f9e0fd-b44e-4e5e-94c6-63e247a39b6a">
 
-#### Level 2
+# Design D1:
 
-*Diagram Image: [Level 2 Diagram](/diagrams/level2.png)*
+In this diagram, we go one layer deep. We understand that the Professor publishes the coding Assignment for the Student. The student can access it via a notebook or a Discord bot. The student submits their response to the question on the platform. The platform outputs tips for coding efficiency with appropriate comments. We understand here that the platform is intrinsic to the assignment given by the professor.
 
-#### Description of the Diagrams
+<img width="738" alt="image" src="https://github.com/SaumickPradhan/UG-senior-design/assets/85262444/95fbfe28-8a58-444e-8513-d491f1ff1227">
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id mauris tincidunt, ac consequat arcu rhoncus. Nulla facilisi. Proin lacinia tortor nec magna viverra, ac lacinia mauris dictum.
 
+# Design D2
+
+Our final design shows the complete working of the subsystems of the platform. The professor publishes the assignment and every student accesses it through their university login ID. The student interacts with the assignment and then submits a response. The response is then passed through an Open API generative API. The API is pre-trained on a model which is imported. The model gives the output to the student. The student reviews the comments and implements the code recommendations. The subsystems of the platform are in square boxes.
+
+<img width="611" alt="image" src="https://github.com/SaumickPradhan/UG-senior-design/assets/85262444/13d847c1-1113-48c4-9b0b-b7a0c8052c59">
+
+
+# Design D3
+
+We decided to add additional components to the project. The Teacher will provide exercises and study materials for the students using the platform. The AI platform will produce solutions to the exercises. The students will access these and  will manually get solutions to the exercise and get an attempt. The platform will check the attempt and provide feedback to the student. 
+
+![image](https://github.com/SaumickPradhan/UG-senior-design/assets/85262444/d490c4fd-0c2f-41ff-9c7d-ca6721ebed72)
 ---
 
 ## Project Tasks and Timeline
