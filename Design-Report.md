@@ -155,7 +155,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id 
 
 ## Self-Assessment Essays
 
-[**Saumick Pradhan**](https://github.com/SaumickPradhan/CodeInCStructor.ai/blob/main/docs/Individual-Capstone-Assessment.md)
+[**Saumick Pradhan**](https://github.com/SaumickPradhan/CodeInCStructor.ai/blob/main/docs/Saumick-Pradhan-Individual-Capstone-Assessment.md)
 
 ---
 
