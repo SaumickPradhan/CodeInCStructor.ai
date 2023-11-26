@@ -98,8 +98,11 @@ We decided to add additional components to the project. The Teacher will provide
 *Assignment #5-6*
 
 ### Task List
-FOR ROSHINI!!!!
-PLEASE USE SOME TASKS FROM THE EFFORT MATRIX GIVEN BELOW IN THE TASK LIST, I HAVE ADDED NEW TASKS THERE
+!!!!!!!!!!!!!FOR ROSHINI!!!!!!!!!!!!!!!
+PLEASE USE SOME TASKS FROM THE EFFORT MATRIX GIVEN BELOW IN THE TASK LIST, I HAVE ADDED NEW TASKS THERE.
+
+PLEASE WRITE MORE DETAILED TASKS AND TIMELINE. ALSO WE SHOULD SERIOUSLY THINK ABOUT MAKING A REALISTIC TIMELINE THAT WE CAN ACTUALLY FOLLOW
+!!!!!!!!!!!!!!!!
 1. Define project scope
 2. Conduct market research
 3. Develop user personas
@@ -152,18 +155,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id 
 
 ## Self-Assessment Essays
 
-*Assignment #3*
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id mauris tincidunt, ac consequat arcu rhoncus. Nulla facilisi. Proin lacinia tortor nec magna viverra, ac lacinia mauris dictum.
+[**Saumick Pradhan**](https://github.com/SaumickPradhan/CodeInCStructor.ai/blob/main/docs/Individual-Capstone-Assessment.md)
 
 ---
 
 ## Professional Biographies
 
-**Saumick Pradhan Self Assessment Essay**
+[**Saumick Pradhan**](https://github.com/SaumickPradhan/CodeInCStructor.ai/blob/main/docs/Saumick-Pradhan-Professional-Biography.md)
 
-https://github.com/SaumickPradhan/CodeInCStructor.ai/blob/main/docs/Individual-Capstone-Assessment.md
 
+[**Roshni Khatri**](https://github.com/SaumickPradhan/CodeInCStructor.ai/blob/main/docs/Roshni-Khatri-Professional-Biography.md)
 
 ---
 
@@ -182,12 +183,17 @@ https://openai.com/pricing
 
 *References, citations, links to code repositories, and meeting notes.*
 
-*Evidence Justifying 45 Hours of Effort for Each Team Member.*
+**Weekly Time Commitment during August to November 2023**
 
-1. John Doe - [Timesheet](/timesheets/john-doe.pdf)
-2. Jane Smith - [Timesheet](/timesheets/jane-smith.pdf)
-3. ...
+| Sr. No. | Task                            | Saumick | Roshni | Comments |
+| ------- | ------------------------------- | ------- | ------ | -------- |
+|   1)      | Brainstroming and Research                  | 1 Hr    | 1 Hr   |          |
+|   2)      | Testing API and prompt engineering         | 1 Hr    | 0.5 Hr   |          |
+|   3)      | Learning Prompt engineering and Notebook Deployment | 0.5 Hr    | 1 Hr   |          |
+|   4)      | Assignment Preperation               | 1 Hr    | 1 Hr   |          |
+|   5)      | Advisor Meeting         | 0.5 Hr    | 0.5 Hr   |          |
+
+
+
 
 ---
-
-*Note: Replace placeholder text and links with actual content and paths.*
