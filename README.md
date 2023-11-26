@@ -120,6 +120,8 @@ PLEASE WRITE MORE DETAILED TASKS AND TIMELINE. ALSO WE SHOULD SERIOUSLY THINK AB
 
 ### Timeline
 
+ROSHNI COMPLETES
+
 | Task            | Start Date | End Date   |
 | --------------- | ---------- | ---------- |
 | Define scope    | 2023-01-01 | 2023-01-15 |
@@ -146,6 +148,8 @@ PLEASE WRITE MORE DETAILED TASKS AND TIMELINE. ALSO WE SHOULD SERIOUSLY THINK AB
 ---
 
 ## ABET Concerns Essay
+
+ROSHNI COMPLETES
 
 *Assignment #7*
 
@@ -190,7 +194,7 @@ https://openai.com/pricing
 ---
 
 ## Appendix
-
+ROSHNI COMPLETES
 *References, citations, links to code repositories, and meeting notes.*
 
 **Weekly Time Commitment during August to November 2023**
