@@ -72,21 +72,21 @@ In this highest-level view, we have the Input from the user. It passes through t
 
 <img width="709" alt="image" src="https://github.com/SaumickPradhan/UG-senior-design/assets/85262444/c2f9e0fd-b44e-4e5e-94c6-63e247a39b6a">
 
-## Design D1:
+#### Design D1:
 
 In this diagram, we go one layer deep. We understand that the Professor publishes the coding Assignment for the Student. The student can access it via a notebook or a Discord bot. The student submits their response to the question on the platform. The platform outputs tips for coding efficiency with appropriate comments. We understand here that the platform is intrinsic to the assignment given by the professor.
 
 <img width="738" alt="image" src="https://github.com/SaumickPradhan/UG-senior-design/assets/85262444/95fbfe28-8a58-444e-8513-d491f1ff1227">
 
 
-## Design D2
+#### Design D2
 
 Our final design shows the complete working of the subsystems of the platform. The professor publishes the assignment and every student accesses it through their university login ID. The student interacts with the assignment and then submits a response. The response is then passed through an Open API generative API. The API is pre-trained on a model which is imported. The model gives the output to the student. The student reviews the comments and implements the code recommendations. The subsystems of the platform are in square boxes.
 
 <img width="611" alt="image" src="https://github.com/SaumickPradhan/UG-senior-design/assets/85262444/13d847c1-1113-48c4-9b0b-b7a0c8052c59">
 
 
-## Design D3
+#### Design D3
 
 We decided to add additional components to the project. The Teacher will provide exercises and study materials for the students using the platform. The AI platform will produce solutions to the exercises. The students will access these and  will manually get solutions to the exercise and get an attempt. The platform will check the attempt and provide feedback to the student. 
 
@@ -98,7 +98,8 @@ We decided to add additional components to the project. The Teacher will provide
 *Assignment #5-6*
 
 ### Task List
-
+FOR ROSHINI!!!!
+PLEASE USE SOME TASKS FROM THE EFFORT MATRIX GIVEN BELOW IN THE TASK LIST, I HAVE ADDED NEW TASKS THERE
 1. Define project scope
 2. Conduct market research
 3. Develop user personas
@@ -114,11 +115,21 @@ We decided to add additional components to the project. The Teacher will provide
 
 ### Effort Matrix
 
-| Team Member | Task 1 | Task 2 | Task 3 | ... |
-| ----------- | ------ | ------ | ------ | --- |
-| John Doe     | 10h    | 15h    | 8h     | ... |
-| Jane Smith   | 12h    | 10h    | 15h    | ... |
-
+| Sr. No. | Task                            | Saumick | Roshni | Comments |
+| ------- | ------------------------------- | ------- | ------ | -------- |
+|   1)      | Read papers                  | 100%    | 100%   |          |
+|   2)      | Alternative Solutions          | 100%    | 100%   |          |
+|   3)      | Collect sample I/P – O/P prompts | 100%    | 100%   |          |
+|   4)      | Research the API               | 100%    | 100%   |          |
+|   5)      | Create sample questions         | 100%    | 100%   |          |
+|   6)      | Get feedback                   | 100%    | 100%   |          |
+|   7)      | Summarize the response         | 100%    | 100%   |          |
+|   8)      | Set up Jupyter Notebook Interface           |     | 100%   |          |
+|   9)      | Prompt Engineer the API                    | 100%    |    |          |
+|   10)      | Sample Questions and answers for testing              | 100%    |    |          |
+|   11)      | Prepare the server to host notebook           | 100%    | 100%   |          |
+|   12)      | Create a prototype UI           | 100%    | 100%   |          |
+|   13)      | Presentation                    | 100%    | 100%   |          |
 ---
 
 ## ABET Concerns Essay
@@ -131,9 +142,11 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id 
 
 ## PPT Slideshow (includes ABET Concerns)
 
-*Assignment #8*
+**Video Presentation:** https://www.youtube.com/watch?v=RXlRPnMqUa0
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id mauris tincidunt, ac consequat arcu rhoncus. Nulla facilisi. Proin lacinia tortor nec magna viverra, ac lacinia mauris dictum.
+
+**Slides:** https://mailuc-my.sharepoint.com/:p:/g/personal/pradhask_mail_uc_edu/Efgkoc-HJo1KryDhuV2Lg1gB4Xdi_xeH4qFJ5IR7dFzi9Q?e=0J38sY
+
 
 ---
 
@@ -147,24 +160,21 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id 
 
 ## Professional Biographies
 
-*Assignment #1*
+**Saumick Pradhan Self Assessment Essay**
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id mauris tincidunt, ac consequat arcu rhoncus. Nulla facilisi. Proin lacinia tortor nec magna viverra, ac lacinia mauris dictum.
+https://github.com/SaumickPradhan/CodeInCStructor.ai/blob/main/docs/Individual-Capstone-Assessment.md
+
 
 ---
 
 ## Budget
 
-Expenses to date: $10,000
+Expenses to date: $10
 
 *Statement:*
-We have incurred expenses for market research, prototype development, and team collaboration tools. All expenses are within the allocated budget.
+We have incurred expenses for purchase of OpenAI API key. This is the base rate while purchasing the API for the first time. We will be billed as per our use duing the testing phase. Following is the pricing information from OpenAI.
 
-Monetary value of donated items: $5,000
-
-*Donation Sources:*
-- XYZ Corporation: $3,000 (software licenses)
-- ABC Foundation: $2,000 (hardware)
+https://openai.com/pricing
 
 ---
 
