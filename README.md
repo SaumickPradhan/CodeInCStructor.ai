@@ -1,108 +1,201 @@
-# Saumick Pradhan
-## Professional Biography
+# CodeInCStructor.ai
 
-Hello 👋 I am Saumick Pradhan, a senior studying BS Honors in Computer Science with Software Engineering and Student Leadership certificate and MEng in Computer Science in the Artificial Intelligence track.🤖
+	An AI driven Cod-Ing Instructor Platform for Inquisitive CS Students and Faculty
 
-## Contact information
-> Email ID: Pradhask@mail.uc.edu
-&nbsp;
-> 
-> Phone Number: +1 (513) 331-8661
+### Table of Contents
 
-## Project Sought
+1. [Team Names and Project Abstract](#team-names-and-project-abstract)
+2. [Project Description](#project-description)
+3. [User Stories and Design Diagrams](#user-stories-and-design-diagrams)
+    - [User Stories](#user-stories)
+    - [Design Diagrams](#design-diagrams)
+      - [Design D0](#design-D0)
+      - [Design D1](#design-D1)
+      - [Design D2](#design-D2)
+      - [Design D3](#design-D3)
+      - [Description of the Diagrams](#description-of-the-diagrams)
+4. [Project Tasks and Timeline](#project-tasks-and-timeline)
+    - [Task List](#task-list)
+    - [Timeline](#timeline)
+    - [Effort Matrix](#effort-matrix)
+5. [ABET Concerns Essay](#abet-concerns-essay)
+6. [PPT Slideshow (includes ABET Concerns)](#ppt-slideshow-includes-abet-concerns)
+7. [Self-Assessment Essays](#self-assessment-essays)
+8. [Professional Biographies](#professional-biographies)
+9. [Budget](#budget)
+10. [Appendix](#appendix)
 
-I have some ideas in the areas of NLP and recomendation. Please reach out if interested!
+---
 
-## Co-op Work Experience
-1) Tata Consultancy Services Solutions Center | May 2023 – Aug 2023
+## Team Names and Project Abstract
 
-    Software Engineer COOP | Bogota, Colombia	
+**Team Members:**
+- John Doe
+- Jane Smith
+- Advisor: Dr. Alice Johnson
 
-    •	Automated payroll system for external client "Bancolombia" using Pandas & SFTP Azure Storage linking to web Interface.
+**Project Abstract:**
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id mauris tincidunt, ac consequat arcu rhoncus. Nulla facilisi. Proin lacinia tortor nec magna viverra, ac lacinia mauris dictum.
 
-    •	Led implementation of SonarQube quality gates to establish a robust CI/CD pipeline for deployment in BFSI industry.
+---
 
-    •	Prototyped a Keras Regression model to predict company performance from historical invoices, meeting client requirements. 
+## Project Description
 
-&nbsp;
+*Assignment #2*
 
-2) Levi Strauss & Co. Big Data Center | Aug 2022 – Dec 2022
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id mauris tincidunt, ac consequat arcu rhoncus. Nulla facilisi. Proin lacinia tortor nec magna viverra, ac lacinia mauris dictum.
 
-    Data Ops Engineer COOP | San Francisco, CA	
+---
 
-    •	Programmed & scheduled daily Airflow DAGs on Data Bricks AWS & GCP servers to monitor Data Quality pipeline.
+## User Stories and Design Diagrams
 
-    •	Processed data in the “Demand feed” source system acquired from over 500 retail stores across 100+ countries.
+### User Stories
+<img width="42" alt="image" src="https://github.com/SaumickPradhan/CodeInCStructor.ai/assets/85262444/d0784726-3aae-486e-9e85-1d77f0887a41">
 
-    •	Implemented ITIL framework & deployed MS Teams alerts to automated Incident management to handle DAG failures.
+**User Profile 1:** I am a First year College student, starting my Computer Science (or similar) degree. I have little to no prior experience in programming and I have just started to learn the basics.​
 
-&nbsp;
-
-3) Digital Scholarship Center at UC | May 2022 – Present &nbsp;
-
-    Machine Learning Engineer | Cincinnati, OH &nbsp;
-		     	
-    •	Designed a ML model to recommend datasets from UC’s library based on user ratings, needs & applicability.&nbsp;
-
-    •	Generated BERT embeddings and used AWS EC2 instances to train the model in an Agile environment.&nbsp;
-
-    •	Researched Data visualization solutions for recommended datasets used by 9+ UC colleges & other research departments.
-   
-&nbsp;
-
-4) Levi Strauss & Co. AI/ML Center | Jan 2022 – May 2022 &nbsp;
-
-    Machine Learning Engineer COOP | San Francisco, CA	&nbsp;
-      	
-    •	Developed a ML architecture to eliminate product recommendation error for mis-spelt keywords on Levi.com search bar. &nbsp;
-
-    •	Designed Unit tests & trained Adjusted Demand and Sellout model for new individual retailers and wholesalers globally. &nbsp;
-
-    •	Led the creation of Oculus compatible VR shopping experience for Levi’s San Francisco store & presented work to CTO.
-
-&nbsp;
-
-5) CATER (IT department) | Feb 2021 – Apr 2021 &nbsp;
-
-    Student worker | Cincinnati, OH	  &nbsp;
-    
-    •	Tech facilitator, reimaged operating systems, maintained high standards of IT customer service in fast paced operations.
-
-&nbsp;
-
-6) Resident Education & Development | Aug 2022 – Present &nbsp;
-
-    Resident Advisor | Cincinnati, OH	&nbsp;
-
-    •	Led a community of 400+ students to foster values of personal growth in core areas of leadership, learning and inclusion.
-
-# Roshni Khatri
-## Professional Biography
-
-Hi! I am Roshni, a senior studying Computer Science at UC with a passion for artificial intelligence and experience in ERP development.
-
-## Contact information
-> Email ID: khatrirr@mail.uc.edu
-&nbsp;
-> 
-> Phone Number: 440-506-3325
-
-## Co-op Work Experience
-1) Delaware North America LLC | May 2023 - August 2023 | SAP Developer Intern
-   - Analyzed and designed solutions for various business requirements, including custom programs, reports, and forms using SAP ABAP programming language.
-   - Conducted unit and integration testing of developed programs and supported end-to-end testing of implemented solutions.
-   - Collaborated with functional consultants to identify and resolve technical issues, ensuring successful implementation of SAP solutions.
-   - Developed technical documentation and provided knowledge transfer to technical teams.
-   - Contributed to continuous improvement initiatives and best practices related to SAP ABAP development.
-
-2) University of Cincinnati, College of Medicine | May 2021 - Present | Data Science Co-op
-   - Deployed a robust mapping pipeline that aligned the scRNA-seq data set to a reference genome using Bash.
-   - Wrangled massive RNA-sequenced data sets using Python and R Seurat package to conduct rigorous quality control and derived actionable insights with minimal support; resulted in the formulation of new strategies and achieved 12% better outcomes than in previous years.
-   - Contributed input into the collection of new data sources and the refinement of existing ones to improve analysis; led to $200,000 in funding.
-  
-3) Accenture | May 2020 - August 2020 | Consulting Co-op
-   - Conducted business process analysis and identified critical gaps, issues, and needs for the impacts of COVID-19 on University Policies.
-   - Analyzed old information architectures and contributed to the design and development of an improved one.
-   - Provided information, feedback, and guidelines to Accenture executives to support technology-related decision-making.
+**User Story 1:** Given my background, I face a lot of syntax and logical errors while coding during my assignments. I sometimes do not know the correct or most effective way to approach the solution. Hence, I want to have an interactive platform which can help me learn coding in an efficient manner and help answer my questions during the assignment, so that I can have strong fundamentals.​
 
 
+<img width="67" alt="image" src="https://github.com/SaumickPradhan/CodeInCStructor.ai/assets/85262444/75e25788-b13c-4965-8030-7fd692d36595">
+
+**User Profile 2:** I am a Computer Science professor teaching an Intro computer Science class with 50 + students.​
+
+**User Story 2:** It is difficult to provide personalized feedback to every student based on their attempts to the exercises to enable active learning by trying. It is also challenging to come up with unique exercises for each class/ student as most questions have solutions online. ​
+
+
+
+### Design Diagrams
+
+
+#### Design D0:
+
+In this highest-level view, we have the Input from the user. It passes through the “Coding Platform” which is the machine. And then the output is the efficient Code recommendation generated from the “Coding Platform”. The “Machine” is depicted in a cloud.
+
+<img width="709" alt="image" src="https://github.com/SaumickPradhan/UG-senior-design/assets/85262444/c2f9e0fd-b44e-4e5e-94c6-63e247a39b6a">
+
+#### Design D1:
+
+In this diagram, we go one layer deep. We understand that the Professor publishes the coding Assignment for the Student. The student can access it via a notebook or a Discord bot. The student submits their response to the question on the platform. The platform outputs tips for coding efficiency with appropriate comments. We understand here that the platform is intrinsic to the assignment given by the professor.
+
+<img width="738" alt="image" src="https://github.com/SaumickPradhan/UG-senior-design/assets/85262444/95fbfe28-8a58-444e-8513-d491f1ff1227">
+
+
+#### Design D2
+
+Our final design shows the complete working of the subsystems of the platform. The professor publishes the assignment and every student accesses it through their university login ID. The student interacts with the assignment and then submits a response. The response is then passed through an Open API generative API. The API is pre-trained on a model which is imported. The model gives the output to the student. The student reviews the comments and implements the code recommendations. The subsystems of the platform are in square boxes.
+
+<img width="611" alt="image" src="https://github.com/SaumickPradhan/UG-senior-design/assets/85262444/13d847c1-1113-48c4-9b0b-b7a0c8052c59">
+
+
+#### Design D3
+
+We decided to add additional components to the project. The Teacher will provide exercises and study materials for the students using the platform. The AI platform will produce solutions to the exercises. The students will access these and  will manually get solutions to the exercise and get an attempt. The platform will check the attempt and provide feedback to the student. 
+
+![image](https://github.com/SaumickPradhan/UG-senior-design/assets/85262444/d490c4fd-0c2f-41ff-9c7d-ca6721ebed72)
+---
+
+## Project Tasks and Timeline
+
+*Assignment #5-6*
+
+### Task List
+!!!!!!!!!!!!!FOR ROSHINI!!!!!!!!!!!!!!!
+PLEASE USE SOME TASKS FROM THE EFFORT MATRIX GIVEN BELOW IN THE TASK LIST, I HAVE ADDED NEW TASKS THERE.
+
+PLEASE WRITE MORE DETAILED TASKS AND TIMELINE. ALSO WE SHOULD SERIOUSLY THINK ABOUT MAKING A REALISTIC TIMELINE THAT WE CAN ACTUALLY FOLLOW
+!!!!!!!!!!!!!!!!
+1. Define project scope
+2. Conduct market research
+3. Develop user personas
+4. ...
+
+### Timeline
+
+| Task            | Start Date | End Date   |
+| --------------- | ---------- | ---------- |
+| Define scope    | 2023-01-01 | 2023-01-15 |
+| Market research | 2023-01-16 | 2023-02-01 |
+| ...
+
+### Effort Matrix
+
+| Sr. No. | Task                            | Saumick | Roshni | Comments |
+| ------- | ------------------------------- | ------- | ------ | -------- |
+|   1)      | Read papers                  | 100%    | 100%   |          |
+|   2)      | Alternative Solutions          | 100%    | 100%   |          |
+|   3)      | Collect sample I/P – O/P prompts | 100%    | 100%   |          |
+|   4)      | Research the API               | 100%    | 100%   |          |
+|   5)      | Create sample questions         | 100%    | 100%   |          |
+|   6)      | Get feedback                   | 100%    | 100%   |          |
+|   7)      | Summarize the response         | 100%    | 100%   |          |
+|   8)      | Set up Jupyter Notebook Interface           |     | 100%   |          |
+|   9)      | Prompt Engineer the API                    | 100%    |    |          |
+|   10)      | Sample Questions and answers for testing              | 100%    |    |          |
+|   11)      | Prepare the server to host notebook           | 100%    | 100%   |          |
+|   12)      | Create a prototype UI           | 100%    | 100%   |          |
+|   13)      | Presentation                    | 100%    | 100%   |          |
+---
+
+## ABET Concerns Essay
+
+*Assignment #7*
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id mauris tincidunt, ac consequat arcu rhoncus. Nulla facilisi. Proin lacinia tortor nec magna viverra, ac lacinia mauris dictum.
+
+---
+
+## PPT Slideshow (includes ABET Concerns)
+
+**Video Presentation:** https://www.youtube.com/watch?v=RXlRPnMqUa0
+
+
+**Slides:** https://mailuc-my.sharepoint.com/:p:/g/personal/pradhask_mail_uc_edu/Efgkoc-HJo1KryDhuV2Lg1gB4Xdi_xeH4qFJ5IR7dFzi9Q?e=0J38sY
+
+
+---
+
+## Self-Assessment Essays
+
+[**Saumick Pradhan**](https://github.com/SaumickPradhan/CodeInCStructor.ai/blob/main/docs/Saumick-Pradhan-Individual-Capstone-Assessment.md)
+
+---
+
+## Professional Biographies
+
+[**Saumick Pradhan**](https://github.com/SaumickPradhan/CodeInCStructor.ai/blob/main/docs/Saumick-Pradhan-Professional-Biography.md)
+
+
+[**Roshni Khatri**](https://github.com/SaumickPradhan/CodeInCStructor.ai/blob/main/docs/Roshni-Khatri-Professional-Biography.md)
+
+---
+
+## Budget
+
+Expenses to date: $10
+
+*Statement:*
+We have incurred expenses for purchase of OpenAI API key. This is the base rate while purchasing the API for the first time. We will be billed as per our use duing the testing phase. Following is the pricing information from OpenAI.
+
+https://openai.com/pricing
+
+---
+
+## Appendix
+
+*References, citations, links to code repositories, and meeting notes.*
+
+**Weekly Time Commitment during August to November 2023**
+
+| Sr. No. | Task                            | Saumick | Roshni | Comments |
+| ------- | ------------------------------- | ------- | ------ | -------- |
+|   1)      | Brainstroming and Research                  | 1 Hr    | 1 Hr   |          |
+|   2)      | Testing API and prompt engineering         | 1 Hr    | 0.5 Hr   |          |
+|   3)      | Learning Prompt engineering and Notebook Deployment | 0.5 Hr    | 1 Hr   |          |
+|   4)      | Assignment Preperation               | 1 Hr    | 1 Hr   |          |
+|   5)      | Advisor Meeting         | 0.5 Hr    | 0.5 Hr   |          |
+
+
+
+
+---
