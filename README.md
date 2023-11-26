@@ -30,20 +30,28 @@
 ## Team Names and Project Abstract
 
 **Team Members:**
-- John Doe
-- Jane Smith
-- Advisor: Dr. Alice Johnson
+- Saumick Pradhan (pradhask@mail.uc.edu)​
+- Roshni Khatri (khatrirr@mail.uc.edu)​
+- Advisor:
+	- Dr. William III Hawkins (hawkinwh@ucmail.uc.edu)​
+ 	- Dr. Raj Bhatnagar (bhatnark@ucmail.uc.edu)​
 
-**Project Abstract:**
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id mauris tincidunt, ac consequat arcu rhoncus. Nulla facilisi. Proin lacinia tortor nec magna viverra, ac lacinia mauris dictum.
+
+**Project Abstract** <br><br>
+CodeInCStructor.ai aims to develop a dynamic platform tailored for first-year Computer Science students and those in related programming fields. The central focus is to foster motivation, positive support, and encouragement throughout their coding journey. Leveraging Generative AI, the platform seeks to engage students with insightful feedback to overcome coding challenges, whether they are beginners or experienced programmers. The platform also enables professors to come up with innovative and unique exercises for the students to enable critical thinking. These exercises will supplement the material from the professor and help students interact with customized problems.​
 
 ---
 
+## Goal Statement​
+
+Making coding engaging by providing good feedback so that beginner Students can push through the inevitable tough parts that come with writing code, irrespective of experience. Working on unique assignments will help students actively think towards the solution rather than resorting to online help resources. Referring back to the old assignments helps students recollect the old concepts in an easy-to-read natural language form.
+
 ## Project Description
 
-*Assignment #2*
+The "CodeInCStructor.ai” platform has two broader use cases. The first one uses a fine tuned LLM that creates unique exercises and produces sample solutions for the professor. The second is using the student’s attempt in Python to the exercise and providing feedback based on the sample solution. This feedback will be generated in Natural language and will be a continuous comprehensive response cycle. The correct answers will then be saved along with their natural language explanation, for the student to review later on. The LLM will be based on the gpt-3.5-turbo-0613 model.​
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id mauris tincidunt, ac consequat arcu rhoncus. Nulla facilisi. Proin lacinia tortor nec magna viverra, ac lacinia mauris dictum.
+Targeting first-year CS students, this platform encourages active learning, helps tackle syntax and logical errors, while equips students for technical interviews and getting their first COOP opportunities. Our ultimate goal is to enhance coding engagement and provide valuable feedback, promoting students' coding proficiency, regardless of their experience level. We want the students to work on unique exercises and in a continuous feedback-driven learning approach with unique challenges to enable critical thinking.​
+
 
 ---
 
