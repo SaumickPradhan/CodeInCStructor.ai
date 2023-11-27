@@ -106,11 +106,6 @@ We decided to add additional components to the project. The Teacher will provide
 ## Project Tasks and Timeline
 
 ### Task List
-!!!!!!!!!!!!!FOR ROSHINI!!!!!!!!!!!!!!!
-PLEASE USE SOME TASKS FROM THE EFFORT MATRIX GIVEN BELOW IN THE TASK LIST, I HAVE ADDED NEW TASKS THERE.
-
-
-Certainly! Here's a more detailed breakdown of the task list:
 
 1. **Read Papers:**
    - Identify relevant research papers.
