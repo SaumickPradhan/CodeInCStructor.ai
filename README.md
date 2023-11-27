@@ -105,28 +105,118 @@ We decided to add additional components to the project. The Teacher will provide
 
 ## Project Tasks and Timeline
 
-*Assignment #5-6*
-
 ### Task List
 !!!!!!!!!!!!!FOR ROSHINI!!!!!!!!!!!!!!!
 PLEASE USE SOME TASKS FROM THE EFFORT MATRIX GIVEN BELOW IN THE TASK LIST, I HAVE ADDED NEW TASKS THERE.
 
-PLEASE WRITE MORE DETAILED TASKS AND TIMELINE. ALSO WE SHOULD SERIOUSLY THINK ABOUT MAKING A REALISTIC TIMELINE THAT WE CAN ACTUALLY FOLLOW
-!!!!!!!!!!!!!!!!
-1. Define project scope
-2. Conduct market research
-3. Develop user personas
-4. ...
+
+Certainly! Here's a more detailed breakdown of the task list:
+
+1. **Read Papers:**
+   - Identify relevant research papers.
+   - Summarize key findings and methodologies.
+   - Note any existing solutions or frameworks.
+
+2. **Alternative Solutions:**
+   - Investigate alternative approaches to the problem.
+   - Compare pros and cons of different solutions.
+   - Consider novel or hybrid approaches.
+
+3. **Collect Sample I/P – O/P Prompts:**
+   - Define a set of input-output prompt pairs for testing.
+   - Ensure diversity and coverage of potential use cases.
+   - Include edge cases and corner scenarios.
+
+4. **Research the API:**
+   - Explore the documentation of the selected API.
+   - Understand its capabilities and limitations.
+   - Identify any prerequisites or dependencies.
+
+5. **Create Sample Questions:**
+   - Generate a set of questions based on the collected prompts.
+   - Ensure a variety of question types (e.g., open-ended, multiple-choice).
+   - Consider potential user queries.
+
+6. **Get Feedback:**
+   - Share the sample questions with a small group for feedback.
+   - Gather insights on clarity, relevance, and difficulty.
+   - Iterate on questions based on feedback.
+
+7. **Summarize the Response:**
+   - Develop a system to summarize API responses.
+   - Handle different response formats (text, JSON, etc.).
+   - Consider how to handle errors or ambiguous responses.
+
+8. **Set up Jupyter Notebook Interface:**
+   - Install necessary libraries and dependencies.
+   - Configure the Jupyter Notebook environment.
+   - Ensure seamless integration with the chosen API.
+
+9. **Prompt Engineer the API:**
+   - Fine-tune input prompts for optimal performance.
+   - Experiment with variations to enhance response quality.
+   - Document any patterns or guidelines for prompt engineering.
+
+10. **Sample Questions and Answers for Testing:**
+    - Pair sample questions with expected API responses.
+    - Develop a testing protocol for systematic evaluation.
+    - Consider scenarios for regression testing.
+
+11. **Prepare the Server to Host Notebook:**
+    - Set up a server environment to host the Jupyter Notebook.
+    - Configure security settings and access controls.
+    - Ensure compatibility with external dependencies.
+
+12. **Create a Prototype UI:**
+    - Design a simple user interface for interacting with the system.
+    - Integrate input and output components.
+    - Consider user experience and accessibility.
+
+13. **Presentation:**
+    - Prepare a presentation summarizing the project.
+    - Include key findings, challenges, and solutions.
+    - Demonstrate the prototype and discuss future enhancements.
+    - Allow time for questions and feedback.
+
 
 ### Timeline
 
-ROSHNI COMPLETES
+This project follows a structured timeline with tasks organized by months. Each task represents a significant step in the development process. 
 
-| Task            | Start Date | End Date   |
-| --------------- | ---------- | ---------- |
-| Define scope    | 2023-01-01 | 2023-01-15 |
-| Market research | 2023-01-16 | 2023-02-01 |
-| ...
+### October 2023
+
+- **1. Read Papers**
+- **2. Alternative Solutions**
+- **3. Collect Sample I/P – O/P Prompts**
+
+    - **6. Get Feedback**
+    - **7. Summarize the Response**
+
+### November 2023
+
+- **4. Research the API**
+- **5. Create Sample Questions**
+
+    - **6. Get Feedback**
+    - **7. Summarize the Response**
+
+### December 2023
+
+- **8. Set up Jupyter Notebook Interface**
+
+    - **9. Prompt Engineer the API**
+
+### January 2024
+
+- **10. Sample Questions and Answers for Testing**
+
+    - **11. Prepare the Server to Host Notebook**
+
+### February 2024
+
+- **12. Create a Prototype UI**
+
+    - **13. Presentation**
 
 ### Effort Matrix
 
@@ -149,13 +239,15 @@ ROSHNI COMPLETES
 
 ## ABET Concerns Essay
 
-ROSHNI COMPLETES
+Professional: This project directly influences the professional growth of its creators and the learning experience for students. By developing an effective coding education platform, the creators enhance their programming and AI skills, solidifying their reputation in education technology and AI communities. Specialized knowledge in both programming and AI is crucial for refining the generative AI model, ensuring accurate and beneficial suggestions for students.
 
-*Assignment #7*
+Ethical: The project seeks to positively motivate students in their coding journey while addressing ethical considerations. Caution is advised to prevent over-reliance on AI feedback, which could hinder critical thinking. Efforts are made to create an inclusive and unbiased learning environment, prioritizing ethical use of AI suggestions to enhance, not impede, the learning experience.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum quam id mauris tincidunt, ac consequat arcu rhoncus. Nulla facilisi. Proin lacinia tortor nec magna viverra, ac lacinia mauris dictum.
+Legal: Legal aspects, especially regarding intellectual property and data privacy, are carefully considered. Adherence to copyright and fair use laws is essential, particularly when incorporating content from third-party sources. Compliance with data privacy laws is a priority, especially in handling personally identifiable information, to avoid potential legal challenges.
 
----
+Security: Security measures are paramount, particularly in safeguarding user data and AI functionalities. Encryption and secure storage are implemented for user data, and regular security audits mitigate potential threats like data breaches or malicious code injections. Privacy concerns are addressed by empowering users to control their data sharing preferences, ensuring data is used appropriately.
+
+Social: The project's impact extends to society by providing a valuable educational tool for students in computer science. Personalized support and motivation can enhance the quality of education, potentially increasing student retention in coding-related fields. Making the project accessible to non-profit organizations can further support underserved communities, contributing to public service and enriching lives. The potential to publish research based on testing and surveys underscores a commitment to sharing valuable insights with the broader educational community.
 
 ## PPT Slideshow (includes ABET Concerns)
 
@@ -194,8 +286,15 @@ https://openai.com/pricing
 ---
 
 ## Appendix
-ROSHNI COMPLETES
-*References, citations, links to code repositories, and meeting notes.*
+**References**
+- Association for Computing Machinery. (2021). User-Centered Design of Augmented Reality Environments for Creativity in Education. ACM Transactions on Computer-Human Interaction (TOCHI), 28(2), Article 8. https://dl.acm.org/doi/abs/10.1145/3501385.3543957
+
+---
+
+**Meeting Notes**
+- Link: https://mailuc-my.sharepoint.com/:w:/r/personal/khatrirr_mail_uc_edu/Documents/Meeting%20Notes.docx?d=w0fe1f223d51b466d9529812b4e63455e&csf=1&web=1&e=GsTpuU
+
+---
 
 **Weekly Time Commitment during August to November 2023**
 
