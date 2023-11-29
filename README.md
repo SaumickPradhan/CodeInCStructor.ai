@@ -1,6 +1,6 @@
 # CodeInCStructor.ai
 
-	An AI driven Cod-Ing Instructor Platform for Inquisitive CS Students and Faculty
+	An AI-driven Cod-Ing Instructor Platform for Inquisitive CS Students and Faculty
 
 ### Table of Contents
 
@@ -257,6 +257,8 @@ Social: The project's impact extends to society by providing a valuable educatio
 ## Self-Assessment Essays
 
 [**Saumick Pradhan**](https://github.com/SaumickPradhan/CodeInCStructor.ai/blob/main/docs/Saumick-Pradhan-Individual-Capstone-Assessment.md)
+
+[**Roshni Khatri**](https://github.com/SaumickPradhan/CodeInCStructor.ai/blob/main/docs/Roshni-Khatri-Individual-Capstone-Assessment.md)
 
 ---
 
