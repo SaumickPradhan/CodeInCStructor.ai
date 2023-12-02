@@ -48,9 +48,9 @@ Making coding engaging by providing good feedback so that beginner Students can 
 
 ## Project Description
 
-The "CodeInCStructor.ai” platform has two broader use cases. The first one uses a fine tuned LLM that creates unique exercises and produces sample solutions for the professor. The second is using the student’s attempt in Python to the exercise and providing feedback based on the sample solution. This feedback will be generated in Natural language and will be a continuous comprehensive response cycle. The correct answers will then be saved along with their natural language explanation, for the student to review later on. The LLM will be based on the gpt-3.5-turbo-0613 model.​
+The "CodeInCStructor.ai" platform has two broader use cases. The first one uses a fine-tuned LLM that creates unique exercises and produces sample solutions for the professor. The second use case is to interactively mentor the student as they attempt (in Python) to complete the AI-generated exercise. This feedback will be generated in natural language and will be a continuous comprehensive response cycle. The correct answers will then be saved along with their natural language explanation, for the student to review later on. The LLM will be based on the gpt-3.5-turbo-0613 model.​
 
-Targeting first-year CS students, this platform encourages active learning, helps tackle syntax and logical errors, while equips students for technical interviews and getting their first COOP opportunities. Our ultimate goal is to enhance coding engagement and provide valuable feedback, promoting students' coding proficiency, regardless of their experience level. We want the students to work on unique exercises and in a continuous feedback-driven learning approach with unique challenges to enable critical thinking.​
+Targeting first-year CS students, this platform encourages active learning, helps tackle syntax and logical errors, while equiping students for technical interviews and getting their first COOP opportunities. Our ultimate goal is to enhance coding engagement and provide valuable feedback, promoting students' coding proficiency, regardless of their experience level. We want the students to work on unique exercises and in a continuous feedback-driven learning approach with unique challenges to enable critical thinking.​
 
 
 ---
