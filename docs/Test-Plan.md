@@ -95,16 +95,137 @@ Functional/Performance: Functional.
 
 Unit/Integration: Integration.
 
-# To be completed by Roshni
+## Test Case 5
+
+Purpose: To ensure that the application launches successfully without errors and that the user interface components are initialized properly.
+
+Description: This test verifies the initial state of the application by checking if the launch process is error-free and if the UI components are correctly initialized.
+
+Inputs: Launch the application by executing the Jupyter Notebook containing the generative AI for assisted learning. Observe the user interface as it loads.
+
+Expected Outputs: The application launches without any errors. The user interface is displayed with the expected components (e.g., buttons, menus, input fields). No unexpected pop-ups, error messages, or crashes occur during the launch.
+
+Normal/Abnormal/Boundary Case: Boundary Case.
+
+Blackbox/Whitebox: Blackbox.
+
+Functional/Performance: Functional.
+
+Unit/Integration: Unit.
+
+## Test Case 6
+
+Purpose: To ensure that the user interface performs proper input validation and displays accurate error messages for invalid inputs.
+
+Description:  
+   - Open the application and navigate to the input section.
+   - Attempt to submit the form with various types of invalid inputs to trigger validation checks.
+   - Verify that the system responds appropriately to each invalid input scenario.
+
+Inputs: 
+   - (Professors): Enter a list of relevant topics to generate the question.
+   - (Students): Enter answers for feedback.
+   - Enter nothing for the prompt.
+
+Expected Outputs: 
+   - For an empty required field, the system should display an error message stating that the field is mandatory.
+
+Normal/Abnormal/Boundary Case: Abnormal.
+
+Blackbox/Whitebox: Blackbox.
+
+Functional/Performance: Functional.
+
+Unit/Integration: Unit.
+
+## Test Case 7
+
+Purpose: To ensure the accuracy of personalized suggestions provided by the model in the learning platform.
+
+Description:  Evaluate the platform's ability to tailor suggestions based on the user's skill level and coding experience.
+
+Inputs: Code snippets representing different difficulty levels.
+
+Expected Outputs: The platform should provide personalized suggestions that align with the user's skill level.
+
+Normal/Abnormal/Boundary Case: Normal case.
+
+Blackbox/Whitebox: Blackbox.
+
+Functional/Performance: Functional.
+
+Unit/Integration: Integration.
+
+## Test Case 8
+
+Purpose: To verify that the platform effectively helps users prepare for technical interviews.
+
+Description: Simulate a scenario where a user is preparing for a technical interview using the platform. Test the system's ability to provide relevant resources, guidance, and suggested solutions for common interview questions.
+
+Inputs: Input a set of common technical interview questions into the platform.
+
+Expected Outputs: The platform should provide personalized guidance and suggestions for solving the input technical interview questions.
+
+Normal/Abnormal/Boundary Case: Normal case.
+
+Blackbox/Whitebox: Blackbox.
+
+Functional/Performance: Functional.
+
+Unit/Integration: Integration.
+
+## Test Case 9
+
+Purpose: To validate the accuracy of personalized suggestions provided by the model.
+
+Description: This test focuses on assessing how well the system's model can personalize feedback and suggestions based on the user's coding experience.
+
+Inputs: Input a code snippet from a user with varying skill levels (e.g., beginner, intermediate, advanced).
+
+Expected Outputs: The expected output is feedback and suggestions that are tailored to the specific skill level of the user. For example, a beginner might receive more fundamental guidance, while an advanced user should receive more nuanced suggestions.
+
+Normal/Abnormal/Boundary Case: Normal case.
+
+Blackbox/Whitebox: Blackbox.
+
+Functional/Performance: Performance.
+
+Unit/Integration: Unit.
+
+## Test Case 10
+
+Purpose: To validate the data collection process for the research paper.
+
+Description: Simulate the data collection process to ensure that the system gathers relevant information for the research paper on user outcomes.
+
+Inputs: Simulated user interactions with the platform.
+
+Expected Outputs: Collected data includes user feedback, usage patterns, and responses to surveys.
+
+Normal/Abnormal/Boundary Case: Normal case.
+
+Blackbox/Whitebox: Blackbox.
+
+Functional/Performance: Functional.
+
+Unit/Integration: Unit.
 
 # Test Case Matrix: summarizes the test case coverage (items 1, 6-9 in a tabular format)
 
 # Part III. Test Case Matrix
 
-| Test Case | Normal/Abnormal/Boundary | Blackbox/Whitebox | Functional/Performance | Unit/Integration |
+| Test Case | Normal/Abnormal/Boundary | Blackbox/Whitebox | Functional/Performance  | Unit/Integration  |
 |-----------|--------------------------|-------------------|-------------------------|-------------------|
 | 1         | Normal                   | Blackbox          | Functional              | Unit              |
 | 2         | Normal                   | Blackbox          | Functional              | Unit              |
 | 3         | Normal                   | Blackbox          | Functional              | Integration       |
 | 4         | Normal                   | Blackbox          | Functional              | Integration       |
+| 5         | Boundary                 | Blackbox          | Functional              | Unit              |
+| 6         | Abnormal                 | Blackbox          | Functional              | Unit              |
+| 7         | Normal                   | Blackbox          | Functional              | Integration       |
+| 8         | Normal                   | Blackbox          | Performance             | Unit              |
+| 9         | Normal                   | Blackbox          | Performance             | Unit              |
+| 10        | Normal                   | Blackbox          | Functional              | Unit              |
+
+
 
