@@ -117,6 +117,16 @@
             clear: both;
         }
 
+        .ai-icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            float: left;
+            margin-left: -5px; /* Adjust margin as needed */
+            margin-top: -70px;
+            clear: both;
+        }
+
         .message {
             margin: 6px 0;
             padding: 15px;
@@ -279,6 +289,9 @@
             var messageElement = `<div class="message ${senderClass}">${formatMessage(escapedMessage)}</div>`;
             if (sender === "me") {
                 messageElement += `<img src="https://cdn-icons-png.flaticon.com/512/1144/1144760.png" alt="User" class="user-icon">`;
+            } 
+            else {
+                 messageElement += `<img src="https://raw.githubusercontent.com/SaumickPradhan/CodeInCStructor.ai/Roshni/logo_v2.png" alt="Chatbot" class="ai-icon">`;
             }
             
             $("#chat-area").append(messageElement);
