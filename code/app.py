@@ -24,7 +24,7 @@ def students():
 
 @app.route('/student')
 def student():
-    return render_template('student.html')
+    return render_template('students.html')
 
 @app.route('/user_message', methods=['POST'])
 def handle_user_message():
