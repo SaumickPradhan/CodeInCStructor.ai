@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, edirect, url_for
+from flask import Flask, render_template, request, jsonify, redirect, url_for
 from main import interact_with_gpt, conversation_history
 import logging
 
