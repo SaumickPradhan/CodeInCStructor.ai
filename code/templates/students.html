@@ -36,7 +36,7 @@
         }
 
         #user-text {
-            margin-left: 80px;
+            margin-left: 70px;
             margin-top: -43px;
             font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             font-size: x-large;
@@ -74,9 +74,10 @@
             border-radius: 15px;
             box-shadow: 0 4px 6px rgba(97, 97, 97, 0);
             overflow-y: auto;
-            margin-top: 0px;
+            margin-top: -10px;
             height: 540px;
             width: 75%;
+            /* border: #630098 3px solid; */
         }
 
         #message-form {
@@ -106,6 +107,16 @@
             border-style: solid; 
         }
 
+        .user-icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            float: right;
+            margin-right: -5px; /* Adjust margin as needed */
+            margin-top: -70px;
+            clear: both;
+        }
+
         .message {
             margin: 6px 0;
             padding: 15px;
@@ -116,6 +127,7 @@
 
         .user-message {
             background-color: rgba(50, 172, 253, 0.3);
+            margin-right: 30px;
             color: rgb(0, 0, 0);
             float: right;
         }
@@ -126,12 +138,13 @@
             border-color: #e5e6e9;
             color: rgb(0, 0, 0);
             float: left;
+            clear: both;
         }
 
         .user-image {
-            width: 70px;
+            width: 40px;
             margin-top: 20px;
-            margin-left: 5px;
+            margin-left: 20px;
         }
 
         pre {
@@ -264,6 +277,10 @@
             var senderClass = sender === "me" ? "user-message" : "gpt-message";
             var escapedMessage = escapeHtml(message);
             var messageElement = `<div class="message ${senderClass}">${formatMessage(escapedMessage)}</div>`;
+            if (sender === "me") {
+                messageElement += `<img src="https://cdn-icons-png.flaticon.com/512/1144/1144760.png" alt="User" class="user-icon">`;
+            }
+            
             $("#chat-area").append(messageElement);
             $("#chat-area").scrollTop($("#chat-area")[0].scrollHeight);
         }
@@ -397,7 +414,7 @@ $(document).ready(function(){
         // Display user information in the side box
         $('#side-box').html(`
             <div id="box2">
-                <img src="https://static.vecteezy.com/system/resources/previews/019/879/186/original/user-icon-on-transparent-background-free-png.png" alt="User" class="user-image">
+                <img src="https://cdn-icons-png.flaticon.com/512/1144/1144760.png" alt="User" class="user-image">
                 <div id="user-text">Hi, ${firstName}</div>
             </div>
         `);
