@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeInCStructor.ai</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        body {
+            font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+            font-size: 12pt;
+        }
+
+        h1 {
+            margin-left: 30px;
+            margin-top: 15px;
+            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+            font-size: x-large;
+            color: #000000;
+            padding: 10px 0;
+        }
+
+        t1 {
+            margin-left: 100px;
+            margin-top: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: large;
+            color: #000000;
+            padding: 10px 0;
+        }
+
+        #user-text {
+            margin-left: 80px;
+            margin-top: -43px;
+            font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: x-large;
+            font-weight: bold;
+            color: #000000;
+        }
+
+        line1 {
+            position: absolute; 
+            left: 320px;
+            top: 50px; 
+            width: 1150px;
+            height: 0px; 
+            border-width: 1px; 
+            border-color: rgb(192, 196, 202); /* neutral-250 */
+            border-style: solid; 
+            transform: rotate(0.11deg); 
+        }
+
+        #side-box {
+            position: absolute; 
+            top: 6px; 
+            left: 10px; 
+            width: 285px; 
+            height: 750px; 
+            background-color: rgba(177, 87, 255, 0.1);
+            border-radius: 15px;
+            overflow-y: auto;
+        }
+
+        #chat-area {
+            margin-left: 21%;
+            padding: 15px;
+            background-color: rgba(255, 255, 255, 0);
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(97, 97, 97, 0);
+            overflow-y: auto;
+            margin-top: 0px;
+            height: 540px;
+            width: 75%;
+        }
+
+        #message-form {
+            margin: 10px auto;
+            padding: 6px;
+            background-color: rgba(255, 255, 255, 0);
+            border-color: #000000;
+            display: flex;
+            align-items: center;
+            position: fixed;
+            bottom: 0px;
+            left: 59.8%;
+            transform: translateX(-50%);
+            width: 76%;
+        }
+
+        #box2 {
+            position: absolute; 
+            top: 610px; 
+            left: 10px; 
+            width: 260px; 
+            height: 121px; 
+            background: #FFFFFFFF; /* white */
+            border-radius: 12px; /* border-m */
+            border-width: 1px; 
+            border-color: #D8D2FEFF; /* secondary-200 */
+            border-style: solid; 
+        }
+
+        .message {
+            margin: 6px 0;
+            padding: 15px;
+            border-radius: 15px;
+            clear: both;
+            overflow-wrap: break-word;
+        }
+
+        .user-message {
+            background-color: rgba(50, 172, 253, 0.3);
+            color: rgb(0, 0, 0);
+            float: right;
+        }
+
+        .gpt-message {
+            background-color: rgba(255, 0, 0, 0);
+            border: 1px solid;
+            border-color: #e5e6e9;
+            color: rgb(0, 0, 0);
+            float: left;
+        }
+
+        .user-image {
+            width: 70px;
+            margin-top: 20px;
+            margin-left: 5px;
+        }
+
+        pre {
+            background-color: #000000;
+            padding: 10px;
+            border-radius: 15px;
+            overflow-x: auto;
+        }
+        
+        .python-code .comment {
+            color: #75715e;
+        }
+        
+        .python-code .string {
+            color: #e6db74;
+        }
+        
+        .python-code .number {
+            color: #ae81ff;
+        }
+        
+        .python-code .keyword {
+            color: #d35400;
+            font-weight: bold;
+        }
+        
+        .python-code .builtin {
+            color: #66d9ef;
+        }
+        
+        .python-code .operator {
+            color: #fd971f;
+        }
+
+        .python-code .function {
+            color: #228b22;
+        }
+
+        .code-snippet {
+            background-color: #000000;
+            padding: 10px;
+            border-radius: 15px;
+            font-size: small;
+            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+            color: #fff;
+        }
+
+        .code-line {
+            display: block;
+            padding-left: 15px;
+        }
+
+
+        #message {
+            flex-grow: 1;
+            border-color: #878787;
+            border-radius: 20px;
+            padding: 10px;
+            margin-right: 10px;
+            resize: none;
+            height: 22px;
+            font-size: 16px;
+        }
+
+        #message:focus {
+            outline: #ff4a4a;
+            box-shadow: 0 0 5px #878787;
+        }
+
+        #message::placeholder {
+            color: #989898;
+        }
+
+        #message-form button {
+            background-color: #2980b9;
+            color: white;
+            border: none;
+            border-radius: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #message-form button:hover {
+            background-color: #1b6ca8;
+        }
+        #clear-history {
+            text-align: center;
+            font-size: 12pt;
+            margin-top: 10px;
+            color: #000000;
+            background-color: #F3F4F6;
+            cursor: pointer;
+            display: inline-block;
+            padding: 5px 10px;
+            margin-left: 800px;
+            margin-top: 10px;
+            border-radius: 9px;
+            transition: background-color 0.3s ease;
+        }
+        
+        #clear-history:hover {
+            color: #333;
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>codeInCStructor.ai</h1>
+    <line1></line1>
+    <div id="side-box"></div>
+    <div id="chat-area"></div>
+    <div id="message-form">
+        <textarea id="message" placeholder="Send your message" rows="2"></textarea>
+        <button id="send-button">Send</button>
+    </div>
+    <div id="clear-history">Clear Conversation History</div>
+
+    <script>
+        function escapeHtml(unsafe) {
+            return unsafe
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/'/g, "&#039;");
+        }
+
+        function addMessageToChat(sender, message) {
+            var senderClass = sender === "me" ? "user-message" : "gpt-message";
+            var escapedMessage = escapeHtml(message);
+            var messageElement = `<div class="message ${senderClass}">${formatMessage(escapedMessage)}</div>`;
+            $("#chat-area").append(messageElement);
+            $("#chat-area").scrollTop($("#chat-area")[0].scrollHeight);
+        }
+
+        function formatMessage(message) {
+            var codeSnippetRegex = /```([^`]*)```/g;
+            var formattedMessage = message.replace(codeSnippetRegex, function (match, p1) {
+                var formattedCode = p1.trim();
+                return `<pre class="line-numbers"><code class="python-code">${highlightPython(formattedCode)}</code></pre>`;
+            });
+
+            return formattedMessage;
+        }
+
+        function highlightPython(code) {
+            var lines = code.split('\n');
+            var highlightedCode = '';
+
+            lines.forEach(function(line) {
+                var parts = line.split(/(?<!\w)#/); // Split line by '#' not preceded by a word character
+                var codePart = parts.shift(); // Get the code part
+                var commentPart = parts.join('#'); // Join the remaining parts as comment
+
+                var highlightedCodePart = highlightPart(codePart); // Highlight code part
+                if (commentPart) {
+                    highlightedCodePart += `<span class="comment">#${commentPart}</span>`; // Add highlighted comment part
+                }
+
+                highlightedCode += highlightedCodePart + '\n'; // Add newline
+            });
+
+            return highlightedCode;
+        }
+
+        function highlightPart(part) {
+            // Regex patterns for different token types
+            var keywordPattern = /\b(and|as|assert|async|await|break|class|continue|def|del|elif|else|except|finally|for|from|global|if|import|in|is|lambda|nonlocal|not|or|pass|raise|return|try|while|with|yield)\b/g;
+            var operatorPattern = /[\+\-\*\/\%\=\!\~\^\&\|\>\<]/g;
+            var builtinFunctionPattern = /\b(print|len|input|range|open|sum|max|min|abs|round|sorted)\b/g;
+            var stringPattern = /(["'])(?:(?=(\\?))\2.)*?\1/g;
+            var numberPattern = /\b\d+\b/g;
+
+            if (part.match(keywordPattern)) {
+                return `<span class="keyword">${part}</span>`;
+            } else if (part.match(operatorPattern)) {
+                return `<span class="operator">${part}</span>`;
+            } else if (part.match(builtinFunctionPattern)) {
+                return `<span class="builtin">${part}</span>`;
+            } else if (part.match(stringPattern)) {
+                return `<span class="string">${part}</span>`;
+            } else if (part.match(numberPattern)) {
+                return `<span class="number">${part}</span>`;
+            } else {
+                return part;
+            }
+        }
+
+
+        var tokenConsumption = 0;
+
+        function updateTokenCounter() {
+            // Update token counter function
+        }
+
+        $("#send-button").click(sendMessage);
+
+        $("#message").keypress(function (event) {
+            if (event.which === 13 && !event.shiftKey) {
+                event.preventDefault();
+                sendMessage();
+            }
+        });
+
+        $("#clear-history").click(function () {
+            $("#chat-area").empty();
+        });
+
+        var attemptsLeft = 4;
+        
+        function sendMessage() {
+    if (attemptsLeft <= 0) {
+        alert("You have used all your attempts. Please refresh the page to start a new conversation.");
+        return;
+    }
+
+    var message = $("#message").val().trim();
+
+    if (message.length > 0) {
+        addMessageToChat("me", message);
+
+        $.ajax({
+            url: "/user_message",
+            method: "POST",
+            contentType: "application/json",
+            data: JSON.stringify({ message: message }),
+            success: function (data) {
+                addMessageToChat("gpt", data.response);
+                tokenConsumption = data.token_usage;
+                updateTokenCounter();
+            },
+            error: function (error) {
+                console.error("Error:", error);
+            },
+        });
+
+        $("#message").val("");
+
+        attemptsLeft--;
+        updateAttemptsLeft();
+
+        if (attemptsLeft === 0) {
+            $("#message").prop("disabled", true);
+            $("#send-button").prop("disabled", true);
+            $("#chat-area").append("<div class='message gpt-message'>You have used all your attempts today.</div>");
+        }
+    }
+}
+
+function updateAttemptsLeft() {
+    $("#attempts-left").text(`Attempts left: ${attemptsLeft}`);
+}
+
+$(document).ready(function(){
+        // Get query parameters from URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const firstName = urlParams.get('firstName');
+        const lastName = urlParams.get('lastName');
+        const email = urlParams.get('email');
+        const assignment = urlParams.get('assignment');
+        
+        // Display user information in the side box
+        $('#side-box').html(`
+            <div id="box2">
+                <img src="https://static.vecteezy.com/system/resources/previews/019/879/186/original/user-icon-on-transparent-background-free-png.png" alt="User" class="user-image">
+                <div id="user-text">Hi, ${firstName}</div>
+            </div>
+        `);
+    });
+    </script>
+
+</body>
+
+</html>
+
