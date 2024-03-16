@@ -100,7 +100,7 @@ Our final design shows the complete working of the subsystems of the platform. T
 
 We decided to add additional components to the project. The Teacher will provide exercises and study materials for the students using the platform. The AI platform will produce solutions to the exercises. The students will access these and  will manually get solutions to the exercise and get an attempt. The platform will check the attempt and provide feedback to the student. 
 
-![image](https://github.com/SaumickPradhan/UG-senior-design/assets/85262444/d490c4fd-0c2f-41ff-9c7d-ca6721ebed72)
+![image](https://github.com/SaumickPradhan/CodeInCStructor.ai/assets/85262444/30e29681-37a0-4968-99b8-f1b371e81149)
 ---
 
 ## Project Tasks and Timeline
