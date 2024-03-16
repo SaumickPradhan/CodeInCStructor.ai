@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Question Generator</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css">
+        <style>
+            body {
+                font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: rgba(255, 255, 255, 0.5); /* Adding a semi-transparent background */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+            }
+    
+            .dialog-container {
+                background-color: #ffffff;
+                padding: 20px;
+                border-radius: 10px;
+                border: rgba(25, 109, 198, 0.408) 3px solid;
+                width: 80%; /* Adjust the width as needed */
+                max-width: 400px; /* Limiting the width to avoid stretching on larger screens */
+            }
+    
+            h1 {
+                margin-left: 40px;
+                margin-top: 15px;
+                text-align: center;
+                font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+                font-size: x-large;
+                color: #000000;
+                padding: 10px 0;
+            }
+    
+            label, input, select {
+                display: block;
+            }
+    
+            input[type="text"],
+            select {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                box-sizing: border-box;
+            }
+    
+            input[type="submit"] {
+                background-color: #000000;
+                color: white;
+                padding: 10px 20px;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+    
+            input[type="submit"]:hover {
+                background-color: rgb(192, 196, 202);
+            }
+    
+            #generated-question {
+                margin-top: 20px;
+                padding: 10px;
+                background-color: #f0f0f0;
+                border-radius: 5px;
+            }
+        </style>
+    </head>
+<body>
+    <div class="dialog-container">
+    <h1>Question Generator</h1>
+    <form id="question-form" method="post">
+        <label for="topic">Enter Topic:</label>
+        <input type="text" id="topic" name="topic"><br><br>
+        <label for="difficulty">Select Difficulty:</label>
+        <select id="difficulty" name="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select><br><br>
+        <input type="submit" value="Generate Question" id="generate-button">
+    </form>
+    {% if result %}
+    <div id="generated-question">
+    <h2>Generated Question:</h2>
+    <p>{{ result }}</p>
+    </div>
+    {% endif %}
+</div>
+ 
+</body>
+</html>
