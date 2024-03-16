@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Role</title>
+    <style>
+        h1 {
+            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+            font-size: 26pt;
+            font-weight: bold;
+            color: #000000;
+            margin-top: 10px;
+        }
+
+        body {
+            font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #ffffff;
+        }
+
+        .box {
+            width: 400px;
+            padding: 20px;
+            height: 350px;
+            background-color: #fff;
+            border-radius: 10px;
+            border: rgb(99, 0, 152) 3px solid;
+            text-align: center;
+        }
+
+        .logo {
+            width: 180px; /* Adjust width as needed */
+            margin: 0 auto 20px; /* Center logo and add space below */
+        }
+
+        .button {
+            display: block;
+            width: 150px;
+            padding: 10px;
+            margin: 10px auto;
+            border: none;
+            border-radius: 5px;
+            background-color: #000000;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .button:hover {
+            background-color: #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <img src="https://github.com/SaumickPradhan/CodeInCStructor.ai/blob/Roshni/code/logo.png?raw=true" alt="Logo" class="logo"> 
+        <h1>CodeInCStructor.ai</h1>
+        <div>
+            <button class="button" onclick="window.location.href = '/professor';">Professors</button>
+            <button class="button" onclick="window.location.href = '/students';">Students</button>
+        </div>
+    </div>
+</body>
+
+</html>
