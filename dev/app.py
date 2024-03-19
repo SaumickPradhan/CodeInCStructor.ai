@@ -11,8 +11,15 @@ app.logger.setLevel(logging.INFO)
 app.logger.addHandler(logging.StreamHandler())
 
 # Initialize the program generator engine
-#api_key = "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"  # Replace with your OpenAI API key
+#api_key = ""  # Replace with your OpenAI API key
 program_generator = ProgramGeneratorEngine()
+
+assignment_name = None
+
+
+def modify_assignment_name(new_value):
+    global assignment_name 
+    assignment_name = new_value 
 
 @app.route('/')
 def index():
@@ -29,7 +36,10 @@ def students():
 
 @app.route('/student')
 def student():
-    return render_template('students.html')
+    modify_assignment_name(request.args.get('assignment'))
+    print(assignment_name,"11111")
+    return render_template('students.html', assignment_name=assignment_name)
+    #return render_template('students.html')
 
 @app.route('/professor', methods=['GET', 'POST'])
 def professor():
@@ -50,7 +60,9 @@ def handle_user_message():
     user_input = data.get("message")
 
     if user_input:
-        result = interact_with_gpt(user_input, conversation_history)
+        # assignment_name = request.args.get('assignment')
+        print(assignment_name,"2222")
+        result = interact_with_gpt(user_input, conversation_history, assignment_name)
         return jsonify(result)  # Return the response as JSON
     
 if __name__ == '__main__':
