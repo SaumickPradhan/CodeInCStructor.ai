@@ -248,6 +248,34 @@
             color: #fff;
         }
 
+
+        /* CSS for line numbers */
+        .line-numbers {
+            position: relative;
+            padding-left: 2.8em;
+            /* Adjust as needed */
+            counter-reset: linenumber;
+        }
+
+        .line-numbers>code {
+            position: relative;
+        }
+
+        .line-numbers .line-numbers-rows {
+            position: absolute;
+            pointer-events: none;
+            top: 0;
+            font-size: 100%;
+            /* Adjust as needed */
+            left: -3em;
+            /* Adjust as needed */
+            width: 2.8em;
+            /* Adjust as needed */
+            color: #878787;
+            /* Adjust the colors and other styles as needed */
+        }
+
+
         .code-line {
             display: block;
             padding-left: 15px;
@@ -277,7 +305,7 @@
             color: #989898;
         }
 
-        #message-form button {
+        /* #message-form button {
             background-color: #000000;
             color: white;
             border: none;
@@ -289,6 +317,26 @@
 
         #message-form button:hover {
             background-color: #1b6ca8;
+        } */
+
+
+
+        #message-form #send-button {
+            width: 80px;
+            height: 80px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            border-radius: 50%;
+        }
+
+        #message-form #send-button:hover {
+            background-color: #ababab;
+            border-radius: 50%;
+        }
+
+        #message-form #send-button.disabled:hover {
+            cursor: not-allowed;
+            background-color: #7d0a0a;
         }
 
         #clear-history {
@@ -336,9 +384,15 @@
 </head>
 
 <body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/components/prism-python.min.js"></script>
+
+
     <img src="https://github.com/SaumickPradhan/CodeInCStructor.ai/blob/Roshni/code/logo_v3.png?raw=true" alt="User"
         class="logo-image">
     <h1>CodeInCStructor.ai</h1>
+    
     <div id="h2">Assignment: ${assignment}</div>
     <line1></line1>
     <div id="side-box"></div>
@@ -348,7 +402,9 @@
         <div id="message-form">
             <div id="clear-history">Clear Conversation History</div>
             <textarea id="message" placeholder="Send your message" rows="1"></textarea>
-            <button id="send-button">Send</button>
+            <!-- <button id="send-button">Send</button> -->
+            <img id="send-button" src="https://cdn.icon-icons.com/icons2/2248/PNG/512/send_circle_icon_136236.png"
+                alt="Send">
         </div>
     </div>
 
@@ -380,7 +436,8 @@
             var codeSnippetRegex = /```([^`]*)```/g;
             var formattedMessage = message.replace(codeSnippetRegex, function (match, p1) {
                 var formattedCode = p1.trim();
-                return `<pre class="line-numbers"><code class="python-code">${highlightPython(formattedCode)}</code></pre>`;
+                // return `<pre class="line-numbers"><code class="python-code">${highlightPython(formattedCode)}</code></pre>`;
+                return '<pre><code class="language-python">' + Prism.highlight(formattedCode, Prism.languages.python) + '</code></pre>';
             });
 
             return formattedMessage;
@@ -492,9 +549,12 @@
                     $("#message").prop("disabled", true);
                     $("#send-button").prop("disabled", true);
                     $("#chat-area").append("<div class='message gpt-message'>You have used all your attempts today.</div>");
+                    $("#send-button.disabled:hover").addClass("disabled");
                 }
             }
         }
+
+        
 
         function updateAttemptsLeft() {
             $("#attempts-left").text(`Attempts left: ${attemptsLeft}`);
