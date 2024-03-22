@@ -1,0 +1,12 @@
+{
+    "Tuples": "Write python code to access the elements of a tuple.",
+    "Factorial": "Write a Python function return the factorial of a number.",
+    "Palindrome": "Write a Python function to check if a string is a palindrome or not.",
+    "Lists": "Write a Python function that takes a list of integers as input and returns a new list containing only the unique elements of the original list, maintaining the original order.",
+    "Maps": "Write a function that takes in a dictionary representing a map where the keys are locations and the values are the corresponding coordinates. The function should return the location with the highest y-coordinate. If there are multiple locations with the same highest y-coordinate, return the one that appears first in the dictionary. Example: Input: {A: (1, 2), B: (3, 4), C: (2, 4)} Output: B",
+    "Trees": "Write a Python function to calculate the height of a binary tree.",
+    "key4": {
+        "nested_key1": "nested_value1",
+        "nested_key2": "nested_value2"
+    }
+}
