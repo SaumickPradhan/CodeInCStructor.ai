@@ -2,6 +2,7 @@ from flask import Flask, render_template, request, jsonify, redirect, url_for
 from student import interact_with_gpt, conversation_history
 from professor import ProgramGeneratorEngine
 import logging
+from flask import send_from_directory
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'secret!'
@@ -65,5 +66,11 @@ def handle_user_message():
         result = interact_with_gpt(user_input, conversation_history, assignment_name)
         return jsonify(result)  # Return the response as JSON
     
+
+@app.route('/static/<path:filename>')
+def serve_static(filename):
+    return send_from_directory('static', filename)
+
 if __name__ == '__main__':
     app.run(debug=True)
+
