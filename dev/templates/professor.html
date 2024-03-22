@@ -77,20 +77,25 @@
             display: flex;
             justify-content: flex-start;
             align-items: center;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
             /* Adjust spacing */
         }
 
         .logo {
             width: 80px;
-            margin-right: 0px;
+            margin-right: -35px;
         }
 
         .heading {
             font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
             font-size: x-large;
             color: #000000;
-            padding: 1px 0;
+
+        }
+
+        .title{
+
+            margin-left: 10px;
         }
     </style>
 </head>
@@ -104,7 +109,7 @@
         </div>
 
         <div class="dialog-container">
-            <h1>Question Generator</h1>
+            <h1 class="title">Question Generator</h1>
             <form id="question-form" method="post">
                 <label for="topic">Enter Topic:</label>
                 <input type="text" id="topic" name="topic" placeholder="Eg: Lists, Tuples, Maps, etc." required><br><br>
