@@ -42,6 +42,7 @@
             font-size: large;
             font-weight: bold;
             color: #000000;
+            margin-bottom: 10px;
         }
 
         line1 {
@@ -62,7 +63,7 @@
             top: 6px;
             left: 10px;
             width: 20%;
-            height: 95%;
+            height: 97%;
             background-color: rgba(84, 141, 203, 0.408);
             border-radius: 15px;
             /* overflow-y: auto; */
@@ -380,6 +381,38 @@
         #chat {
             position: relative;
         }
+
+        .question {
+            margin: 5px;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+
+        #university-info {
+            margin: 10px;
+            margin-top: 68px;
+            padding: 5px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            font-size: 16px;
+            line-height: 1;
+            text-align: center;
+        }
+
+
+        #attempts-left-box2 {
+            margin-left: 0px;
+            margin-top: 0px;
+            font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: large;
+            font-weight: bold;
+            color: #287dc2;
+            padding-top: 10px;
+        }
     </style>
 </head>
 
@@ -392,7 +425,7 @@
     <img src="https://github.com/SaumickPradhan/CodeInCStructor.ai/blob/Roshni/code/logo_v3.png?raw=true" alt="User"
         class="logo-image">
     <h1>CodeInCStructor.ai</h1>
-    
+
     <div id="h2">Assignment: ${assignment}</div>
     <line1></line1>
     <div id="side-box"></div>
@@ -554,10 +587,11 @@
             }
         }
 
-        
+
 
         function updateAttemptsLeft() {
             $("#attempts-left").text(`Attempts left: ${attemptsLeft}`);
+            $("#attempts-left-box2").text(`Attempts left: ${attemptsLeft}`);
         }
 
         $(document).ready(function () {
@@ -584,19 +618,37 @@
             const email = urlParams.get('email');
             const assignment = urlParams.get('assignment');
 
-            // Display user information in the side box
-            $('#side-box').html(`<div style="padding-top: 180px;">
-        <p style="font-size: 14px; color: #000;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <p style="font-size: 14px; color: #000;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+            $(document).ready(function () {
+                // Fetch data from your Flask application's route
+                $.getJSON("/static/QuestionBank.json", function (data) {
+                    // Assuming assignment is a constant variable containing the key
+                    //const assignment = "Tuples"; // Example assignment, replace with your constant
+
+                    // Retrieve the value associated with the assignment key
+                    const question = data[assignment];
+                    // Display user information in the side box
+                    $('#side-box').html(
+
+                        `
+            <div id="university-info">
+        <p>University of Cincinnati</p>
+        <p>CS 1100 Intro to Python Programming</p>
+        <p>Section 002</p>
+        <p>Professor: Dr. Will Hawkins</p>
+        
     </div>
+            <div class="question">Question: ${question}</div>
             <div id="box2">
                 <img src="https://cdn-icons-png.flaticon.com/512/1144/1144760.png" alt="User" class="user-image">
                 <div id="user-text">Hi, ${firstName} ${lastName}</div>
-                <span class="email">${email}</span>
+                <div class="email">${email}</span>
+                <div id="attempts-left-box2">Attempts left: ${attemptsLeft}</span>
             </div>`
-            );
-            // Display assignment in the h2 heading
-            $('#h2').text(`Assignment: ${assignment}`);
+                    );
+                    // Display assignment in the h2 heading
+                    $('#h2').text(`Assignment: ${assignment}`);
+                });
+            });
         });
     </script>
 
