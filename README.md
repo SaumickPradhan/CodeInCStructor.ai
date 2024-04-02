@@ -16,7 +16,7 @@ Welcome, aspiring programmers! Are you ready to conquer your Python coding assig
 
 4. **Receive Expert Guidance:** Our AI coding assistant will provide you with step-by-step explanations and code snippets to guide you through your Python coding assignments. Don't hesitate to ask for clarification whenever needed!
 
-**Instructions to Run the Code:**
+## Instructions to Run the Code:
 
 <div class="code-block" markdown="1">
 
