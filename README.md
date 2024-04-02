@@ -1,4 +1,4 @@
-# CodeInCStructor.ai
+# Welcome to CodeInCStructor.ai!
 
 	An AI-driven Cod-Ing Instructor Platform for Inquisitive CS Students and Faculty
 
